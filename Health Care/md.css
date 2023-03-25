@@ -1,0 +1,33 @@
+body{
+	background-color:#2e4450;
+	font-size: cursive;
+}
+#our{
+	text-align: center;
+	font-size: 40px;
+	color:#FFA500;
+}
+#info{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr))
+}
+#info img:hover{
+	border-top-left-radius: 50px;
+}
+h4{
+	color:#FFA500;
+}
+.img{
+	box-sizing: border-box;
+    box-shadow:12px 10px 12px rgba(0,0,0,0.5);
+}
+.img:hover{
+    box-shadow: none;
+	border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+button{
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	color:#fff;
+}
